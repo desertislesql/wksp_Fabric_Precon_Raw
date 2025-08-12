@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "gpgOpDataStore"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4e0bab68-ca1f-834d-4cbe-5c62ce1a42f7"
+  }
+}

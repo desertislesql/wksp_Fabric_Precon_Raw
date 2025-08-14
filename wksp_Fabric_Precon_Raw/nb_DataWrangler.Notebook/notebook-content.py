@@ -20,18 +20,10 @@
 # META   }
 # META }
 
-# CELL ********************
+# MARKDOWN ********************
 
-# Welcome to your new notebook
-# Type here in the cell editor to add code!
+# ### Data Wrangler
 
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
 
 # CELL ********************
 

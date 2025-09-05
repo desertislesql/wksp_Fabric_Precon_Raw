@@ -24,6 +24,10 @@
 
 # ### Transforming Iowa Liquor Sales
 
+# MARKDOWN ********************
+
+# examining liquor content
+
 # CELL ********************
 
 dfiowa = spark.sql("SELECT * FROM gpgOpDataStore.dbo.iowa_liquor_sales LIMIT 1000")

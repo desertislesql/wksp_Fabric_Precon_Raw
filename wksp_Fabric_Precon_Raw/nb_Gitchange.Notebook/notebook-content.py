@@ -22,8 +22,8 @@
 
 # CELL ********************
 
-dfiowa = spark.sql("SELECT * FROM gpgOpDataStore.dbo.iowa_liquor_sales LIMIT 1000")
-display(dfiowa)
+dfiowaLiquor = spark.sql("SELECT * FROM gpgOpDataStore.dbo.iowa_liquor_sales LIMIT 1000")
+display(dfiowaLiquor)
 
 # METADATA ********************
 

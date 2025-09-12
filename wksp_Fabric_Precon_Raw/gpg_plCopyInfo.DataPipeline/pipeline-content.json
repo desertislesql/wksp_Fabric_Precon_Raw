@@ -28,12 +28,12 @@
               },
               "schema": [],
               "linkedService": {
-                "name": "gpgOpDataStore",
+                "name": "a70ad472_091d_4511_bca9_acd6d1420ea9",
                 "properties": {
                   "type": "Lakehouse",
                   "typeProperties": {
-                    "artifactId": "4e0bab68-ca1f-834d-4cbe-5c62ce1a42f7",
-                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "artifactId": "@pipeline().libraryVariables.vl_Parameters_SourceLakehouse",
+                    "workspaceId": "@pipeline().libraryVariables.vl_Parameters_Workspace",
                     "rootFolder": "Files"
                   },
                   "annotations": []
@@ -88,6 +88,18 @@
         "name": "Movies",
         "dependsOn": []
       }
-    ]
+    ],
+    "libraryVariables": {
+      "vl_Parameters_Workspace": {
+        "type": "String",
+        "variableName": "Workspace",
+        "libraryName": "vl_Parameters"
+      },
+      "vl_Parameters_SourceLakehouse": {
+        "type": "String",
+        "variableName": "SourceLakehouse",
+        "libraryName": "vl_Parameters"
+      }
+    }
   }
 }

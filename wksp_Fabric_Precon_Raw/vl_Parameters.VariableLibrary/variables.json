@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "Workspace",
+      "note": "",
+      "type": "String",
+      "value": "f097d258-1737-4f0b-8e09-09197805d11b"
+    },
+    {
+      "name": "SourceLakehouse",
+      "note": "",
+      "type": "String",
+      "value": " ce1a42f7-5c62-4cbe-834d-ca1f4e0bab68"
+    }
+  ]
+}

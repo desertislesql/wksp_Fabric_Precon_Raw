@@ -30,8 +30,8 @@
 
 # CELL ********************
 
-df = spark.sql("SELECT * FROM gpgOpDataStore.dbo.iowa_liquor_sales LIMIT 1000")
-display(df)
+df1 = spark.sql("SELECT * FROM gpgOpDataStore.dbo.iowa_liquor_sales LIMIT 1000")
+display(df1)
 
 # METADATA ********************
 
